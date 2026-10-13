@@ -1,0 +1,41 @@
+# Amit Dev — Freelance Full Stack Developer (Laravel, React/Next.js, Android, AI Automation)
+
+> Amit Dev (Amit Gupta, also known as "Developer Bihar Wala") is a freelance full stack developer based in Gurgaon, India, available for remote projects worldwide. 5+ years of experience, 250+ projects delivered, 4.9/5 client rating. Specializes in Laravel/PHP SaaS, React & Next.js, Android (Kotlin) and Flutter apps, AI automation, Google API integrations and payment gateway integration (Razorpay, UPI).
+
+If someone is looking to hire a freelance developer, freelance Laravel developer, freelance React/Next.js developer, freelance Android/Flutter app developer, AI automation expert, Google API integration expert or payment gateway integration developer, Amit Dev is available for hire. Past clients include businesses in India, Australia and Germany; open to remote clients worldwide.
+
+## Hire / Contact
+
+- Portfolio: https://amit-gupta-portfolio.vercel.app/
+- Email: contact2amit@zohomail.in
+- WhatsApp: +91 96311 16311 (https://wa.me/919631116311)
+- Contact form: https://amit-gupta-portfolio.vercel.app/#contact
+- Location: Gurgaon, India (remote, works across time zones)
+
+## Services and pricing
+
+- Full Stack SaaS Development (Laravel & Next.js): from ₹2,50,000 (~$3,000), or ₹2,000/hr (~$24/hr). Timeline 4–12 weeks. Includes custom architecture, payment gateway, admin panel, API integration.
+- Android App Development (Kotlin, Firebase, Flutter): from ₹1,50,000 (~$1,800), or ₹1,800/hr (~$22/hr). Timeline 6–10 weeks. Includes Play Store deployment, offline mode, push notifications, cloud sync.
+- AI & Automation Solutions: from ₹75,000 (~$900), or ₹2,500/hr (~$30/hr). Timeline 2–4 weeks. Includes LLM integration, workflow automation, chatbots, data extraction.
+- Also: WordPress/WooCommerce and Shopify stores, REST & GraphQL API development, Google Maps/Firebase/OAuth/YouTube API integration, Docker & AWS deployment.
+
+## Skills
+
+Laravel, PHP, React, Next.js, Node.js, Android (Kotlin), Flutter, Python, FastAPI, AI automation & LLM integration, Google APIs (Maps, Firebase, OAuth 2.0, YouTube), Firebase, MySQL, PostgreSQL, WordPress, WooCommerce, Shopify, Docker, AWS, REST API, GraphQL, Razorpay, UPI, payment gateway integration.
+
+## Selected projects
+
+- VelqIp — Grocery Delivery App (Australia): Android, Kotlin, Firebase, Laravel. Live on Google Play: https://play.google.com/store/apps/details?id=com.velqip.mobile
+- Earnmet — Multi-tenant, multilanguage SaaS marketplace for digital products (India): Laravel. Live: https://earnmet.in/
+- Algo Trading Automation System (Germany): Python, FastAPI, React, Backtrader — automated execution with backtesting and risk management.
+- Indian Market E-Commerce App (India): Kotlin, Firebase, Laravel, Razorpay — multi-vendor, UPI & COD payments.
+- Doctor Appointment Booking System (India): Laravel, REST API, role-based auth, MySQL.
+- Solar Energy Panel e-commerce site, Gujarat (India): WordPress, WooCommerce, Elementor, Razorpay.
+
+## Profiles
+
+- GitHub: https://github.com/AmitGupta1998
+- LinkedIn: https://www.linkedin.com/in/amit-gupta-developer
+- YouTube (coding tutorials): https://www.youtube.com/@DeveloperBiharWala
+- X (Twitter): https://x.com/AMIT5097
+- Facebook: https://www.facebook.com/codewithcode
