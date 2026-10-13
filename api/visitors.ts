@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { handleVisitors } from "../server/visitors";
+import { handleVisitors } from "../server/visitors.js";
 
 export const config = { runtime: "nodejs" };
 
