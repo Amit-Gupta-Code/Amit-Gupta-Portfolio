@@ -13,6 +13,17 @@ export const PROJECTS: Project[] = [
     demo: "https://prom.marketing/"
   },
   {
+    id: "8",
+    title: "DealZgo — Local Deals & Vouchers Platform",
+    description: "Local deals marketplace connecting shoppers with nearby salons, cafés, wellness studios and shops — browse offers, claim QR vouchers redeemed at the counter, and earn cashback, while partner businesses list deals to bring in new customers. Includes a companion mobile app.",
+    image: "/projects/dealzgo.webp",
+    tags: ["Marketplace", "QR Vouchers", "Cashback", "Partner Portal", "Mobile App"],
+    category: "Full Stack",
+    results: "Live platform helping local businesses attract customers through deals, vouchers and cashback.",
+    country: "Australia 🇦🇺",
+    demo: "https://dealzgo.com/"
+  },
+  {
     id: "1",
     title: "VelqIp — Grocery Delivery App",
     description: "A nutrition & wellness focused grocery delivery app — browse fresh produce, track macros, and get healthy groceries delivered to your door with real-time order tracking.",

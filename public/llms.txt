@@ -27,6 +27,7 @@ Laravel, PHP, React, Next.js, Node.js, Android (Kotlin), Flutter, Python, FastAP
 
 - VelqIp — Grocery Delivery App (Australia): Android, Kotlin, Firebase, Laravel. Live on Google Play: https://play.google.com/store/apps/details?id=com.velqip.mobile
 - WapDesk — WhatsApp & Instagram marketing SaaS for Indian businesses (India): WhatsApp campaigns on the official Cloud API, Instagram keyword auto-DMs, shared inbox, English & Hindi. Live: https://prom.marketing/
+- DealZgo — Local deals, vouchers & cashback platform (Australia): shopper marketplace, QR vouchers, partner portal, mobile app. Live: https://dealzgo.com/
 - Earnmet — Multi-tenant, multilanguage SaaS marketplace for digital products (India): Laravel. Live: https://earnmet.in/
 - Algo Trading Automation System (Germany): Python, FastAPI, React, Backtrader — automated execution with backtesting and risk management.
 - Indian Market E-Commerce App (India): Kotlin, Firebase, Laravel, Razorpay — multi-vendor, UPI & COD payments.

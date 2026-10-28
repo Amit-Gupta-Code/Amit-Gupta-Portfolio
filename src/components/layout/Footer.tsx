@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin, Youtube, Twitter, Heart, Facebook, Users } from "lucide-react";
+import { Github, Linkedin, Youtube, Twitter, Heart, Facebook, Users, BadgeCheck } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { useVisitorCount } from "@/hooks";
 
@@ -64,23 +64,39 @@ export function Footer() {
 
             {/* Badge is displayed unaltered per Hostinger brand guidelines: no
                 recolouring, cropping, or non-proportional scaling. */}
-            <a
-              href="https://www.hostinger.com/"
-              target="_blank"
-              rel="noopener noreferrer sponsored"
-              aria-label="Hostinger Partner — visit Hostinger"
-              className="mt-8 inline-block rounded-lg p-2 -m-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
-            >
-              <img
-                src="/hostinger-partner-badge/svg/Badge_dark.svg"
-                alt="Hostinger Partner"
-                width={128}
-                height={48}
-                loading="lazy"
-                decoding="async"
-                className="w-32 h-auto"
-              />
-            </a>
+            <div className="mt-8 flex flex-wrap items-center gap-4">
+              <a
+                href="https://www.hostinger.com/"
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                aria-label="Hostinger Partner — visit Hostinger"
+                className="inline-block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-blue"
+              >
+                <img
+                  src="/hostinger-partner-badge/svg/Badge_dark.svg"
+                  alt="Hostinger Partner"
+                  width={128}
+                  height={48}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-32 h-auto block"
+                />
+              </a>
+
+              {/* Matches the Hostinger badge's size and styling. Uses a neutral
+                  icon rather than Meta's logo, which may not be redrawn. */}
+              <div
+                role="img"
+                aria-label="Meta Tech Partner — Tech Provider"
+                className="h-12 inline-flex items-center gap-2 rounded-[13px] border border-white/20 bg-[#18181A] px-3"
+              >
+                <BadgeCheck size={22} className="text-[#0866FF] shrink-0" aria-hidden="true" />
+                <span className="leading-tight text-white">
+                  <span className="block text-[11px] font-bold uppercase tracking-wider">Meta Tech Partner</span>
+                  <span className="block text-[11px]">Tech Provider</span>
+                </span>
+              </div>
+            </div>
           </div>
 
           <div>
