@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { PROJECTS } from "@/constants";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Github, ExternalLink, Globe } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -86,7 +86,16 @@ export function ProjectShowcase() {
                 </div>
 
                 <div className="flex gap-4">
-                  {project.demo && (
+                  {project.demo && project.demo !== "#" ? (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={buttonVariants({ variant: "outline", className: "rounded-full flex-1 gap-2 border-white/10 hover:border-brand-blue hover:text-brand-blue" })}
+                    >
+                      Live Demo <ExternalLink size={16} />
+                    </a>
+                  ) : project.demo && (
                     <Button variant="outline" className="rounded-full flex-1 gap-2 border-white/10 hover:border-brand-blue hover:text-brand-blue">
                       Live Demo <ExternalLink size={16} />
                     </Button>

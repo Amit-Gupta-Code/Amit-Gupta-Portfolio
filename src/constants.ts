@@ -2,6 +2,17 @@ import { Project, Skill, Service } from "./types";
 
 export const PROJECTS: Project[] = [
   {
+    id: "7",
+    title: "WapDesk — WhatsApp & Instagram Marketing SaaS",
+    description: "All-in-one workspace for Indian businesses — launch WhatsApp broadcast campaigns on the official Cloud API, auto-reply to Instagram comments and DMs with keyword triggers, and manage every customer conversation from a shared inbox. Available in English & Hindi.",
+    image: "/projects/wapdesk.webp",
+    tags: ["SaaS", "WhatsApp Cloud API", "Instagram API", "Automation", "English & Hindi"],
+    category: "SaaS",
+    results: "Live SaaS with a 14-day free trial, sending WhatsApp campaigns at Meta's rates with zero markup.",
+    country: "India 🇮🇳",
+    demo: "https://prom.marketing/"
+  },
+  {
     id: "1",
     title: "VelqIp — Grocery Delivery App",
     description: "A nutrition & wellness focused grocery delivery app — browse fresh produce, track macros, and get healthy groceries delivered to your door with real-time order tracking.",
