@@ -110,10 +110,10 @@ export function ContactSection() {
               <div className="flex flex-wrap gap-3 pt-6">
                 {[
                   { href: "https://www.linkedin.com/in/amit-gupta-developer", icon: Linkedin, label: "LinkedIn" },
-                  { href: "https://github.com/AmitGupta1998",                  icon: Github,   label: "GitHub" },
+                  { href: "https://github.com/Amit-Gupta-Code",                  icon: Github,   label: "GitHub" },
                   { href: "https://www.youtube.com/@DeveloperBiharWala",       icon: Youtube,  label: "YouTube" },
                   { href: "https://x.com/AMIT5097",                            icon: Twitter,  label: "X" },
-                  { href: "https://www.facebook.com/codewithcode",             icon: Facebook, label: "Facebook" },
+                  { href: "https://www.facebook.com/developerbiharwala",             icon: Facebook, label: "Facebook" },
                 ].map(({ href, icon: Icon, label }) => (
                   <a key={label} href={href} target="_blank" rel="noopener noreferrer" aria-label={label}>
                     <Button variant="outline" size="icon" className="rounded-full w-12 h-12 border-white/10 hover:bg-brand-blue/10 hover:border-brand-blue/40 text-white transition-all">

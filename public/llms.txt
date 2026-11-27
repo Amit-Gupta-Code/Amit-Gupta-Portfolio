@@ -36,8 +36,8 @@ Laravel, PHP, React, Next.js, Node.js, Android (Kotlin), Flutter, Python, FastAP
 
 ## Profiles
 
-- GitHub: https://github.com/AmitGupta1998
+- GitHub: https://github.com/Amit-Gupta-Code
 - LinkedIn: https://www.linkedin.com/in/amit-gupta-developer
-- YouTube (coding tutorials): https://www.youtube.com/@DeveloperBiharWala
+- YouTube — Developer Bihar Wala (coding tutorials): https://www.youtube.com/@DeveloperBiharWala
 - X (Twitter): https://x.com/AMIT5097
-- Facebook: https://www.facebook.com/codewithcode
+- Facebook: https://www.facebook.com/developerbiharwala

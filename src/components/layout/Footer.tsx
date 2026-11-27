@@ -4,11 +4,11 @@ import { Separator } from "@/components/ui/separator";
 import { useVisitorCount } from "@/hooks";
 
 const socialLinks = [
-  { Icon: Github, href: "https://github.com/AmitGupta1998", label: "GitHub" },
+  { Icon: Github, href: "https://github.com/Amit-Gupta-Code", label: "GitHub" },
   { Icon: Linkedin, href: "https://www.linkedin.com/in/amit-gupta-developer", label: "LinkedIn" },
   { Icon: Youtube, href: "https://www.youtube.com/@DeveloperBiharWala", label: "YouTube" },
   { Icon: Twitter, href: "https://x.com/AMIT5097", label: "X (Twitter)" },
-  { Icon: Facebook, href: "https://www.facebook.com/codewithcode", label: "Facebook" },
+  { Icon: Facebook, href: "https://www.facebook.com/developerbiharwala", label: "Facebook" },
 ];
 
 function VisitorCount() {

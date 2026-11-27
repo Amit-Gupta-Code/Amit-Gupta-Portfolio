@@ -87,7 +87,7 @@ export function ContentCreatorSection() {
             <div>
               <Badge className="mb-4 bg-red-600/10 text-red-500 border-red-600/20">Community</Badge>
               <h2 className="font-display text-4xl md:text-6xl font-bold text-white mb-6">
-                Code With <br /><span className="text-red-600">Code Official</span>
+                Developer <br /><span className="text-red-600">Bihar Wala</span>
               </h2>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
                 I share real-world coding tutorials on Laravel, Android, Flutter, and AI Automation — helping developers in India and globally build better software and grow their freelancing career.

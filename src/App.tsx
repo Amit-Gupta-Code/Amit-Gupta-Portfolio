@@ -19,7 +19,6 @@ import { OngoingProjects } from "@/components/sections/OngoingProjects";
 import { APIExpertSection } from "@/components/sections/APIExpert";
 import { AndroidSection } from "@/components/sections/AndroidSection";
 import { ServicesSection } from "@/components/sections/Services";
-import { ArchitectSuite } from "@/components/sections/ArchitectSuite";
 import { TestimonialsSection } from "@/components/sections/Testimonials";
 import { ContentCreatorSection } from "@/components/sections/ContentCreator";
 import { CertificationsSection } from "@/components/sections/Certifications";
@@ -78,7 +77,6 @@ export default function App() {
         <SkillsSection />
         <ProjectShowcase />
         <OngoingProjects />
-        <ArchitectSuite />
         <APIExpertSection />
         <AndroidSection />
         <ServicesSection />

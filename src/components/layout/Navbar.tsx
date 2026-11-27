@@ -9,7 +9,8 @@ export function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -45,7 +46,9 @@ export function Navbar() {
 
     <nav
       className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-4xl transition-all duration-300 ${
-        scrolled ? "glass-dark py-2 px-4 rounded-full shadow-2xl" : "py-4 px-2"
+        scrolled
+          ? "py-2 px-4 rounded-full bg-[#0b0d14]/90 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.6)]"
+          : "py-4 px-2 bg-transparent border border-transparent"
       }`}
     >
       <div className="flex items-center justify-between">
@@ -64,7 +67,9 @@ export function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground hover:text-white transition-colors"
+              className={`text-sm font-medium hover:text-white transition-colors ${
+                scrolled ? "text-white/85" : "text-muted-foreground"
+              }`}
             >
               {link.name}
             </a>
@@ -123,7 +128,7 @@ export function Navbar() {
                 </Button>
               </a>
               <div className="flex gap-4">
-                <a href="https://github.com/AmitGupta1998" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/Amit-Gupta-Code" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="text-muted-foreground hover:text-white cursor-pointer" />
                 </a>
                 <a href="https://www.linkedin.com/in/amit-gupta-developer" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
